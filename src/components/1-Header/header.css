@@ -1,8 +1,7 @@
 header.flex {
     justify-content: space-between;
-    padding: 0 2.4rem;
-    margin-top: 1.2rem;
-    border: 2px solid red;
+    padding: 1rem 2.4rem;
+    /* margin-top: 1.2rem; */
 }
 
 header.flex nav {
@@ -41,6 +40,23 @@ header button.switch {
 
 header button.menu {
     display: none;
+    z-index: 5;
+    position: fixed;
+    left: 1rem;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+}
+
+header button.menu:hover {
+    color: var(--blue);
 }
 
 /* Media Queries */
@@ -51,17 +67,44 @@ header button.menu {
         border-radius: 0;
         margin: 0;
         inset: 0 30% 0 0;
-        /* top: 20px; */
-        border: 1px solid magenta;
+        box-shadow: none;
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        transition: all 350ms ease-in;
+        -webkit-transition: all 350ms ease-in;
+        -moz-transition: all 350ms ease-in;
+        -ms-transition: all 350ms ease-in;
+        -o-transition: all 350ms ease-in;
+    }
+
+    header.flex nav.open-nav {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
     }
 
     header ul.flex {
         flex-direction: column;
-        border: 1px solid magenta;
         height: 50%;
         justify-content: space-around;
         padding: 0;
-        /* align-items: center; */
+        margin-top: 5rem;
+        /* border: 1px solid magenta; */
+    }
+
+    header ul li a {
+        color: var(--title);
+        opacity: .9;
+        font-size: 1.4rem;
+    }
+
+    header ul li a:hover {
+        font-size: 1.6rem;
     }
 
     header button.menu {
