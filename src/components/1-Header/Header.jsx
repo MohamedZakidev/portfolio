@@ -5,7 +5,6 @@ export default function Header() {
     return (
         <header className='flex'>
             <button className='menu'>menu</button>
-            <div />
             <nav>
                 <ul className='flex'>
                     <li><a href="">About</a></li>
@@ -16,7 +15,6 @@ export default function Header() {
                 </ul>
             </nav>
             <button className='switch'>light</button>
-            <div className='border fixed'></div>
         </header>
     )
 }
