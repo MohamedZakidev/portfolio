@@ -1,0 +1,36 @@
+header.flex {
+    justify-content: space-between;
+    padding: 0 2.4rem;
+}
+
+header.flex nav {
+    background-color: var(--bg-header);
+    padding: .77rem 1.6rem;
+    border-radius: 55px;
+    -webkit-border-radius: 55px;
+    -moz-border-radius: 55px;
+    -ms-border-radius: 55px;
+    -o-border-radius: 55px;
+}
+
+header ul.flex {
+    gap: 16px;
+}
+
+header ul li a {
+    color: var(--title);
+    opacity: .9;
+    font-size: .88rem;
+    font-weight: 500;
+}
+
+header ul li a:hover {
+    color: var(--blue);
+    opacity: 1;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+header button {
+    font-size: 1.2rem;
+}
