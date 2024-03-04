@@ -3,7 +3,8 @@ import './header.css'
 
 export default function Header() {
     return (
-        <header className='flex border'>
+        <header className='flex'>
+            <button className='menu'>menu</button>
             <div />
             <nav>
                 <ul className='flex'>
@@ -14,7 +15,8 @@ export default function Header() {
                     <li><a href="">Contact</a></li>
                 </ul>
             </nav>
-            <button>light</button>
+            <button className='switch'>light</button>
+            <div className='border fixed'></div>
         </header>
     )
 }
