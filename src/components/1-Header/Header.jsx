@@ -22,7 +22,7 @@ export default function Header() {
                     <li><a href="">Contact</a></li>
                 </ul>
             </nav>
-            <button className='switch icon-moon-o'></button>
+            <button className='switch icon-moon'></button>
         </header>
     )
 }
