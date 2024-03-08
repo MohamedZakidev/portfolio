@@ -1,23 +1,21 @@
 header.flex {
     justify-content: space-between;
     align-items: center;
-    padding: .5rem 1.4rem;
+    padding: 1rem 2rem;
 }
 
 header.flex nav {
     background-color: var(--bg-header);
     padding: .77rem 1.6rem;
     border-radius: 55px;
-    -webkit-border-radius: 55px;
-    -moz-border-radius: 55px;
-    -ms-border-radius: 55px;
-    -o-border-radius: 55px;
     box-shadow: 1px 1px 2px rgba(99, 84, 84, .55);
 }
 
 
 header ul.flex {
     gap: 16px;
+    margin: 0;
+    padding: 0;
 }
 
 header ul li a {
@@ -67,7 +65,7 @@ header button.switch:active {
 header button.switch {
     font-size: 1.2rem;
     border-radius: 50%;
-    margin-top: .2rem;
+    margin-top: -1rem;
 }
 
 header button.menu {
@@ -84,6 +82,10 @@ header button.menu:hover {
 /* Media Queries */
 
 @media(max-width: 700px) {
+    header.flex {
+        padding: 1rem 1.4rem;
+    }
+
     header.flex nav {
         position: fixed;
         border-radius: 0;
@@ -126,5 +128,9 @@ header button.menu:hover {
 
     header button.menu {
         display: inline-block;
+    }
+
+    header button.switch {
+        margin: 0;
     }
 }
