@@ -11,7 +11,7 @@ export default function Hero() {
         </div>
         <h1>React Frontend Developer</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, reiciendis animi culpa, repellat corrupti eos modi quae voluptates ullam ad ab illum? Perspiciatis cupiditate ea possimus quidem nam ullam voluptas.</p>
-        <div></div>
+        <div className="social-media"></div>
       </div>
       <div className="right-section animation">animation</div>
     </section>
