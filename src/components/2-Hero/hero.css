@@ -1,12 +1,14 @@
 section.hero {
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     text-align: center;
-    /* grid-template-columns: 2em 2fr 1fr 2em; */
+    display: grid;
+    padding: 0 1rem;
 }
 
-section.hero .avatar-section {
+section.hero .avatar-container {
     display: flex;
     align-items: flex-end;
+    justify-content: center;
 }
 
 .avatar-container img.avatar {
@@ -16,6 +18,61 @@ section.hero .avatar-section {
     border: 1px solid rgba(244, 165, 96, 0.781);
 }
 
+section.hero .icon-verified {
+    color: rgb(82, 144, 238);
+}
+
+section.hero .title {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 1.5rem;
+    margin-bottom: .3rem;
+    color: rgba(244, 165, 96, 0.925);
+}
+
+section.hero p {
+    font-size: .8rem;
+    line-height: 1.2rem;
+    letter-spacing: 1px;
+    max-width: 280px;
+    margin: 0 auto;
+    color: var(--title);
+}
+
 .right-section {
     display: none;
+}
+
+
+@media(min-width:680px) {
+    section.hero {
+        grid-template-columns: 2fr 1fr;
+        padding: 0 2rem;
+        height: 2000px;
+        text-align: initial;
+    }
+
+    .left-section {
+        align-self: self-start;
+        justify-self: self-start;
+    }
+
+    section.hero .avatar-container {
+        justify-content: flex-start;
+    }
+
+    section.hero .title {
+        font-size: 2.4rem;
+    }
+
+    section.hero p {
+        margin: 0;
+        max-width: 600px;
+        font-size: 1rem;
+    }
+
+    .right-section {
+        display: block;
+    }
 }
