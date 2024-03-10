@@ -8,7 +8,7 @@ section.projects-section {
 
 .card {
     border: 1px solid rgba(93, 188, 252, 0.3);
-    max-width: 350px;
+    max-width: 300px;
     border-radius: 7px;
     transition: .3s ease-in;
 }
