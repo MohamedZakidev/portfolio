@@ -30,7 +30,9 @@ section.projects-section {
     margin-bottom: 12px;
 }
 
-.card h3 {}
+.card h3 {
+    font-size: 1.2rem;
+}
 
 .card p {
     font-size: .7rem;
