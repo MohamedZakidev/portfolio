@@ -1,12 +1,15 @@
-import React from 'react'
 import './main.css'
+import Card from "./Card/Card"
 
 export default function Main() {
     return (
-        <main className='flex '>
-            <section className="right-section">
-                sssssssssssssssssssssssssssss
-            </section>
-        </main>
+        <section className="projects-section">
+            <Card
+                className="card"
+            />
+            <Card
+                className="card"
+            />
+        </section>
     )
 }

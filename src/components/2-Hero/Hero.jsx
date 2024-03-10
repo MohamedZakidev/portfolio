@@ -3,7 +3,7 @@ import "./hero.css";
 
 export default function Hero() {
   return (
-    <section className="hero space">
+    <section className="hero">
       <div className="left-section">
         <div className="avatar-container">
           <img className="avatar" src="/profile.png" alt="personal avatar" />

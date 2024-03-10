@@ -8,12 +8,14 @@ function App() {
   return (
     <div className="container">
       <Header />
-      <Hero />
-      <div className="divider"></div>
-      <Main />
-      <div className="divider"></div>
-      <Contact />
-      <div className="divider"></div>
+      <main>
+        <Hero />
+        <div className="divider"></div>
+        <Main />
+        <div className="divider"></div>
+        <Contact />
+        <div className="divider"></div>
+      </main>
       <Footer />
     </div>
   );
