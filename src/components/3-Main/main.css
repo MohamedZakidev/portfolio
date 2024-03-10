@@ -19,6 +19,7 @@ section.projects-section {
     animation-duration: .8s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    animation-timing-function: ease-in-out;
 }
 
 @keyframes rotatecard {
