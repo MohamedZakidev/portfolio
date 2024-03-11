@@ -5,6 +5,7 @@ section.hero {
     padding: 0 var(--edge-space);
     justify-content: center;
     align-items: center;
+    /* border: 1px solid magenta; */
 }
 
 section.hero>* {

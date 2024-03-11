@@ -12,6 +12,18 @@ export default function Main() {
                 <Card
                     className="card"
                 />
+                <Card
+                    className="card"
+                />
+                <Card
+                    className="card"
+                />
+                <Card
+                    className="card"
+                />
+                <Card
+                    className="card"
+                />
             </div>
         </section>
     )
