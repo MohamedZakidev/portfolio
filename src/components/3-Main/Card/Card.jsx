@@ -10,7 +10,7 @@ export default function Card({ title, des, img, link, github, ...restPropss }) {
                         <a href="#"><span className="icon icon-link"></span></a>
                         <a href="#"><span className="icon icon-github"></span></a>
                     </div>
-                    <a href="#">More<span className="icon icon-arrow-right"></span></a>
+                    <a href="https://github.com/MohamedZakidev">More<span className="icon icon-arrow-right"></span></a>
                 </div>
             </div>
         </article>

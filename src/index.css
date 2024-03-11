@@ -35,7 +35,7 @@ body {
 
 .divider {
     border-bottom: 2px solid var(--border);
-    margin: 3rem 0;
+    margin: 2rem 0;
 }
 
 ul {
@@ -72,5 +72,9 @@ img {
 @media(min-width: 700px) {
     :root {
         --edge-space: 2rem;
+    }
+
+    .divider {
+        margin: 3rem 0;
     }
 }
