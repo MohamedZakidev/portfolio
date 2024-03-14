@@ -1,0 +1,16 @@
+section.contact-us {
+    padding: 0 var(--edge-space);
+    border: 1px solid magenta;
+}
+
+section.contact-us h1 {
+    align-items: center;
+}
+
+section.contact-us .icon {
+    margin-right: .4rem;
+}
+
+section.contact-us p {
+    color: var(--subtitle);
+}

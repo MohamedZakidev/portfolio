@@ -1,7 +1,5 @@
 section.projects-section {
     padding: 0 var(--edge-space);
-    /* display: flex;
-    align-items: center; */
     flex-direction: column;
 }
 
@@ -17,8 +15,7 @@ section.projects-section h1 {
     display: grid;
     gap: 15px;
     place-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 450px));
-    max-width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
     margin: 0 auto;
 }
 

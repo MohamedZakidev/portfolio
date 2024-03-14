@@ -15,7 +15,8 @@ section.hero .avatar-container {
 
 .avatar-container img.avatar {
     min-width: 100px;
-    width: 20%;
+    width: 50%;
+    max-width: 190px;
     border-radius: 50%;
     border: 1px solid rgba(244, 165, 96, 0.781);
 }
@@ -25,20 +26,19 @@ section.hero .icon-verified {
 }
 
 section.hero .title {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-top: 1.5rem;
     margin-bottom: .3rem;
-    /* color: rgba(244, 165, 96, 0.925); */
     color: var(--title);
 }
 
 section.hero p {
-    font-size: .8rem;
+    font-size: .9rem;
     line-height: 1.2rem;
     letter-spacing: 1px;
-    max-width: 280px;
+    max-width: 80%;
     margin: 0 auto;
     color: var(--subtitle);
 }
@@ -57,7 +57,7 @@ section.hero p {
 
 .icon {
     color: var(--subtitle);
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .icon:hover {
@@ -73,6 +73,10 @@ section.hero p {
 
     section.hero .avatar-container {
         justify-content: flex-start;
+    }
+
+    .avatar-container img.avatar {
+        max-width: 220px;
     }
 
     section.hero .title {

@@ -35,7 +35,7 @@ header ul li a:hover {
 header button.menu,
 header button.switch {
     background-color: var(--bg-header);
-    width: 2rem;
+    width: 2.5rem;
     text-align: center;
     color: var(--subtitle);
     aspect-ratio: 1 / 1;
@@ -53,22 +53,17 @@ header button.menu:hover,
 header button.switch:hover,
 header button.menu:focus,
 header button.switch:focus {
-    color: var(--title);
     border: 1px solid rgba(244, 165, 96, 0.781);
 }
 
-header button.menu:active,
-header button.switch:active {
-    scale: .75;
-}
-
 header button.switch {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     border-radius: 50%;
     margin-top: -1rem;
 }
 
 header button.menu {
+    font-size: 1.3rem;
     display: none;
     z-index: 5;
     transition: all .2s;
