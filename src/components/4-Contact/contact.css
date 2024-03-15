@@ -31,13 +31,12 @@ section.contact-us form {
 
 section.contact-us label {
     color: var(--subtitle);
-    font-size: .95rem;
-    letter-spacing: 1px;
+    font-size: .9rem;
 }
 
 section.contact-us input,
 section.contact-us textarea {
-    font-size: 1rem;
+    font-size: .95rem;
     background-color: rgba(63, 63, 70, 0.15);
     border: 1px solid rgb(63, 63, 70);
     margin-left: 14px;
