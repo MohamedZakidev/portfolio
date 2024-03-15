@@ -12,7 +12,8 @@ section.contact-us h1 {
 }
 
 section.contact-us .icon {
-    margin-right: .4rem;
+    font-size: 1.8rem;
+    margin-right: .8rem;
 }
 
 section.contact-us p {
@@ -49,9 +50,15 @@ section.contact-us textarea {
     color: white;
     outline: none;
     border-radius: 5px;
-    width: 90%;
+    width: 100%;
     height: 2.5rem;
     text-indent: 15px;
+    transition: .3s;
+    max-width: 600px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 section.contact-us input:hover,
@@ -63,6 +70,44 @@ section.contact-us textarea:focus {
 
 section.contact-us textarea {
     min-height: 9rem;
-    resize: vertical;
+    resize: none;
     padding-block: 15px;
+}
+
+section.contact-us form button {
+    background-color: rgb(36, 37, 46);
+    border: 1px solid rgb(63, 63, 70);
+    border-radius: 3px;
+    padding: 1rem 2.4rem;
+    font-weight: 500;
+    letter-spacing: .6px;
+    cursor: pointer;
+    text-align: center;
+}
+
+@media(min-width:600px) {
+    section.contact-us form button {
+        align-self: center;
+    }
+}
+
+section.contact-us form button:hover {
+    border: 1px solid rgb(45, 212, 191);
+}
+
+@media(min-width:700px) {
+    section.contact-us form {
+        max-width: 900px;
+
+    }
+
+    section.contact-us form>div {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    section.contact-us input,
+    section.contact-us textarea {
+        font-size: .9rem;
+    }
 }
