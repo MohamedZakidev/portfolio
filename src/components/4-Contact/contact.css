@@ -96,9 +96,12 @@ section.contact-us form button:hover {
 }
 
 @media(min-width:700px) {
+    section.contact-us .animation {
+        display: block;
+    }
+
     section.contact-us form {
         max-width: 900px;
-
     }
 
     section.contact-us form>div {
