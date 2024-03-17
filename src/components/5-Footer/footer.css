@@ -1,19 +1,28 @@
 footer.flex {
     flex-direction: column;
-    border: 1px solid magenta;
+    padding: 0 var(--edge-space);
 }
 
 footer ul.flex {
     margin: 0;
     padding: 0;
-    border: 1px solid magenta;
     width: 40%;
     max-width: 300px;
     justify-content: space-between;
 }
 
+footer p {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
 @media(min-width: 700px) {
     footer.flex {
         flex-direction: row;
+        justify-content: space-between;
+    }
+
+    footer .icon {
+        font-size: 1.5rem;
     }
 }

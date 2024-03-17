@@ -10,7 +10,7 @@ export default function Footer() {
         <li><a href="" className="icon icon-x"></a></li>
       </ul>
 
-      <p>All Rights Reserved © 2023 Execution Tech</p>
+      <p>All Rights Reserved ©</p>
     </footer>
   );
 }
