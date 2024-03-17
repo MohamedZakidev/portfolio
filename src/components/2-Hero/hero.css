@@ -55,14 +55,6 @@ section.hero p {
     gap: 8%;
 }
 
-.icon {
-    color: var(--subtitle);
-    font-size: 2rem;
-}
-
-.icon:hover {
-    color: var(--icon-hover);
-}
 
 
 @media(min-width:680px) {

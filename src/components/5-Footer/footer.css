@@ -1,0 +1,19 @@
+footer.flex {
+    flex-direction: column;
+    border: 1px solid magenta;
+}
+
+footer ul.flex {
+    margin: 0;
+    padding: 0;
+    border: 1px solid magenta;
+    width: 40%;
+    max-width: 300px;
+    justify-content: space-between;
+}
+
+@media(min-width: 700px) {
+    footer.flex {
+        flex-direction: row;
+    }
+}

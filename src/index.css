@@ -70,6 +70,15 @@ img {
     max-width: 100%;
 }
 
+.icon {
+    color: var(--subtitle);
+    font-size: 2rem;
+}
+
+.icon:hover {
+    color: var(--icon-hover);
+}
+
 @media(min-width: 700px) {
     :root {
         --edge-space: 2rem;

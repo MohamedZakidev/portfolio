@@ -14,9 +14,9 @@ function App() {
         <Main />
         <div className="divider"></div>
         <Contact />
-        {/* <div className="divider"></div> */}
+        <div className="divider"></div>
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
